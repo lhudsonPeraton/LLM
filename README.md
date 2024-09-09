@@ -38,3 +38,4 @@
 - [ ] Reset bot token after creating it 
 - [ ] Give the bot Meesage Content Intent permission (just a tick box)
 - [ ] Generate a new oauth2 token with scope - bot and permissions - send and read messages
+- [ ] When updating the commands sometimes you might need to kick and reinvite the bot for the command change to propagate 
