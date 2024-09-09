@@ -12,7 +12,8 @@
 ## Ollama
 
 - [ ] pip install -r ollama/requirements.txt
-- [ ] docker run -p 11434:11434 ollama/ollama -this takes long cause its pulling shit
+- [ ] Make sure docker is running (Docker Desktiop for Windows)
+- [ ] docker run -p 11434:11434 ollama/ollama -this takes long cause its pulling the model
     - To mount to save runtime add -v <anywhere on host>:/root/.ollama/models
     - Models will persist if you specify the same place everytime you run the container
 - [ ] pip install -r requirements.txt
@@ -22,7 +23,7 @@
 ## Huggingface transformer
 
 - [ ] Make huggingface account request access for API key, will take a few minutes
-
+- [ ] [Model to request access to](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)
 - [ ] Run it, it will take a few minutes
     - Transformers takes longer
 
