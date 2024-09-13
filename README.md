@@ -10,12 +10,13 @@
 - [ ] source venv/Scripts/activate 
 
 ## Ollama
-
+- https://github.com/ollama/ollama 
 - [ ] pip install -r ollama/requirements.txt
 - [ ] Make sure docker is running (Docker Desktiop for Windows)
 - [ ] docker run -p 11434:11434 ollama/ollama -this takes long cause its pulling the model
     - To mount to save runtime add -v <anywhere on host>:/root/.ollama/models
     - Models will persist if you specify the same place everytime you run the container
+    - Add --gpus=all to allow the model to use your gpu 
 - [ ] pip install -r requirements.txt
 - [ ] pip install tensorflow
 - [ ] pip install accelerate 
