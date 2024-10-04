@@ -16,5 +16,6 @@
         Ubuntu has been installed.
         The requested operation is successful. Changes will not be effective until the system is rebooted.
         ```
+    - After rebooting the computer, multiple command prompt windows may open for a short time. This is expected. 
 - Install Docker for Windows:
     - https://docs.docker.com/desktop/install/windows-install/
