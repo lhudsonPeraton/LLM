@@ -16,6 +16,11 @@
         Ubuntu has been installed.
         The requested operation is successful. Changes will not be effective until the system is rebooted.
         ```
-    - After rebooting the computer, multiple command prompt windows may open for a short time. This is expected. 
+    - After rebooting the computer, multiple command prompt windows may open for a short time. This is expected.
+    - Open the start menu + search for + open Ubuntu
+         - Create username + set password
+    - To confirm successful installation, open a command prompt window and run `wsl -l -v`
+         - Expect to see table with `name | state | version`
 - Install Docker for Windows:
     - https://docs.docker.com/desktop/install/windows-install/
+    - Follow instructions provided by link above + the installation wizard
