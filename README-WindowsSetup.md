@@ -24,3 +24,22 @@
 - Install Docker for Windows:
     - https://docs.docker.com/desktop/install/windows-install/
     - Follow instructions provided by link above + the installation wizard
+    - Expect to see a "Containers" page once Docker Desktop opens successfully. May need to restart.
+
+## Installing Python + Prerequisites ##
+- Open Ubuntu through the start menu + run `python3 --version`
+     - Expected Output: `Python #.##.##`
+- Run `sudo apt install python3-pip` to install `pip`
+- Run `sudo apt install python3-venv` to install `venv`
+- Optional but highly recommended: Create a project folder for this demo and cd into it
+    - Example: `mkdir hackathondemo; cd hackathondemo`
+- Run `python3 -m venv venv` to create a virtual environment
+- Run `source venv/bin/activate` to activate the virtual environment.
+    - Expected Result: `(venv)` should appear before the command prompt
+        - Example: `(venv) username@devicename:`
+     
+## Ollama Setup ##
+- Clone the Ollama repository
+    - `git clone https://github.com/ollama/ollama.git`
+
+      
