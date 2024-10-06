@@ -41,5 +41,11 @@
 ## Ollama Setup ##
 - Clone the Ollama repository
     - `git clone https://github.com/ollama/ollama.git`
+- Pull the Ollama Docker Image
+    - `docker pull ollama/ollama`
+- Run the Docker container (command below uses CPU - recommended)
+    - `docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama`
+- Run the model
+    - `docker exec -it ollama ollama run llama3.2:1b`
 
       
